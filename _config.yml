@@ -1,0 +1,6 @@
+title: DSE Template 
+description: A template for Digital Scholarly Editions
+baseurl: ""
+url: ""
+markdown: kramdown
+theme: null
