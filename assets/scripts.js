@@ -1,12 +1,14 @@
-const btnNotes = document.getElementById('toggleNotes');
+	  const btnNotes = document.getElementById('toggleNotes');
       let notesHidden = false;
-      btnNotes.addEventListener('click', () => {
-         document.querySelectorAll('.note').forEach(el => {
-            el.style.display = notesHidden ? 'inline' : 'none';
-         });
-         notesHidden = !notesHidden;
-         btnNotes.textContent = notesHidden ? 'Show Notes' : 'Hide Notes';
-      });
+	  if (btnNotes) {
+		  btnNotes.addEventListener('click', () => {
+			 document.querySelectorAll('.note').forEach(el => {
+				el.style.display = notesHidden ? 'inline' : 'none';
+			 });
+			 notesHidden = !notesHidden;
+			 btnNotes.textContent = notesHidden ? 'Show Notes' : 'Hide Notes';
+		  });
+	  }
 	   //////////////////////////////////////////////////////////
 	   
 	   	const legendpeople = document.getElementById('legendpeople');
