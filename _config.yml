@@ -1,5 +1,5 @@
 title: DSE Template 
-description: A template for Digital Scholarly Editions
+description: This is a digital scholarly edition
 baseurl: "https://susannalles.github.io/DSE_template/"
 url: ""
 markdown: kramdown
